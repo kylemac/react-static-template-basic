@@ -6,7 +6,6 @@ var questions = [
     message: "What's your first name?"
   }
 ];
-breakthings
 inquirer.prompt(questions).then(answers => {
   console.log("i have received your responses", answers);
 });
